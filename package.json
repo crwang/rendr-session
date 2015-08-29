@@ -1,0 +1,30 @@
+{
+  "name": "rendr-session",
+  "version": "0.0.1",
+  "description": "Session support for Rendr apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"test/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/crwang/rendr-session.git"
+  },
+  "keywords": [
+    "rendr",
+    "sessions"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "node-mocks-http": "^1.4.3",
+    "mocha": "^2.2.5",
+    "should": "^7.1.0"
+  },
+  "peerDependencies": {
+    "rendr": ">=1.1.0"
+  },
+  "author": "Chris Wang <code@chris.wang> (chris.wang)",
+  "license": "MIT"
+}
